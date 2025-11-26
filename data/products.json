@@ -1,0 +1,45 @@
+{
+  "lastUpdated": "2025-11-25T22:00:00-03:00",
+  "products": [
+    {
+      "id": "amz-123",
+      "title": "Smartphone XYZ 128GB",
+      "category": "celulares",
+      "seller": "Amazon",
+      "asin": "B0XYZ12345",
+      "price": 1299.90,
+      "originalPrice": 1599.90,
+      "discount": 19,
+      "shipping": "Grátis",
+      "image": "https://via.placeholder.com/600x400?text=Smartphone",
+      "tags": ["android", "128gb", "promoção"]
+    },
+    {
+      "id": "shp-456",
+      "title": "SSD NVMe 1TB Gen4",
+      "category": "pc",
+      "seller": "Shopee",
+      "productPath": "product/123456/987654",
+      "price": 389.00,
+      "originalPrice": 499.00,
+      "discount": 22,
+      "shipping": "R$ 9,90",
+      "image": "https://via.placeholder.com/600x400?text=SSD+NVMe",
+      "tags": ["ssd", "pc", "desempenho"],
+      "affiliateUrl": "https://shopee.com.br/product/123456/987654?aff_id=SUA_TAG"
+    },
+    {
+      "id": "gen-789",
+      "title": "Camiseta básica 100% algodão",
+      "category": "roupas",
+      "seller": "Loja Parceira",
+      "url": "https://loja.exemplo.com/produto/camiseta?aff=SUA_TAG",
+      "price": 29.90,
+      "originalPrice": 49.90,
+      "discount": 40,
+      "shipping": "R$ 12,00",
+      "image": "https://via.placeholder.com/600x400?text=Camiseta",
+      "tags": ["camiseta", "algodão", "barato"]
+    }
+  ]
+}
