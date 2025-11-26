@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comparador de Preços — Ofertas Atualizadas</title>
+  <meta name="description" content="Busque celulares baratos, peças de PC, roupas e promoções. Compare preços e economize com links de afiliados." />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Espaço para Ads (ex.: AdSense). Substitua pelo seu script de anúncio quando tiver a aprovação. -->
+  <!-- <script async src="..."></script> -->
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <h1>Comparador de Preços</h1>
+      <p>Celulares, peças de PC, roupas e promoções — tudo em um só lugar.</p>
+      <form id="searchForm">
+        <input id="searchInput" type="search" placeholder="Buscar: 'celular', 'SSD', 'camiseta'..." aria-label="Buscar produtos" />
+        <select id="categorySelect" aria-label="Filtrar por categoria">
+          <option value="todos">Todas as categorias</option>
+          <option value="celulares">Celulares</option>
+          <option value="pc">Peças de PC</option>
+          <option value="roupas">Roupas</option>
+          <option value="geral">Geral</option>
+        </select>
+        <select id="sortSelect" aria-label="Ordenar">
+          <option value="relevance">Relevância</option>
+          <option value="price_asc">Menor preço</option>
+          <option value="price_desc">Maior preço</option>
+          <option value="discount_desc">Maior desconto</option>
+        </select>
+      </form>
+    </div>
+  </header>
+
+    <!-- Banner/Bloco para anúncios -->
+  <section class="ads container" aria-label="Anúncios">
+    <div class="ad-placeholder">Seu bloco de Ads aqui</div>
+  </section>
+
+  <main class="container">
+    <section id="resultsMeta" class="results-meta">
+      <span id="resultsCount">Carregando ofertas...</span>
+      <span id="lastUpdated"></span>
+    </section>
+
+    <section id="results" class="grid"></section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <a href="#">Política de Afiliados</a>
+      </nav>
+      <small>Alguns links são afiliados e podem gerar comissão sem custo adicional para você.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
